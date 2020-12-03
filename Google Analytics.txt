@@ -1,0 +1,59 @@
+Google Analytics :
+
+Google Analytics is a completely free web analytics tool provided by Google that helps you measure your website traffic and gather vital information about your website visitors. This tool can give you the answers to all of the aforementioned questions and, thus, enable you to see how your website is actually performing.
+
+
+- Open https://analytics.google.com/
+
+- Sign-in with your existing Gmail Account or Create a new account.
+
+- Click on "Set up for free".
+
+- Click on "Account name" field and give a account name.
+
+- Do not unselect or change the existing default checks.
+
+- Click "Next". Click on "Property name" field and give a property name.
+
+- Click on "Next". Select "Industry category" whichever applicable to you. Select "Business size". 
+
+- On "How do you intend to use Google Analytics with your business? (Check all that apply)" click all check boxes. Since we need to track all these information.
+
+- Click on "Create" and one pop-up box will appear. Select country.
+
+- Click on checkbox "I also accept the Data Processing Terms as required by GDPR."
+
+- Click on checkbox "I accept the Measurement Controller-Controller Data Protection Terms for the data that I share with Google."
+
+- Click "I Accept" button and one more pop-up window will appear. Click on "Save".
+
+We have created Google Analytics Account and Property.
+
+Now we have to Set up a data stream to start collecting data.
+
+- Click on "Website URL" fieald and give your website you want to track. Also, give suitable "stream Name".
+
+- Click on "Create". Now "MEASUREMENT ID" has been generated.
+
+Now we need to Tag our website.
+
+Configure your website with one of the following methods to have data flow into this stream.
+
+1) Global Site Tag (gtag.js)
+2) Google Tag Manager
+
+The easiest way to Tag Website is to using Global Site Tag (gtag.js).
+
+Now Copy and paste the code snippet as the first item into the <head> of every webpage you want to measure.
+In our case, it will be under "index.html" page.
+
+Now close the "Web stream details" window.
+
+We have created a Data Stream under "Data Streams" .
+
+Now copy this "MEASUREMENT ID" and click on "connected Site Settings" and paste the "MEASUREMENT ID" on "Enter ID of tag to connect." field. 
+
+Give a proper "Nickname" for the same.
+
+Click on "Connect"
+
